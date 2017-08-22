@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { orange500, green800 } from 'material-ui/styles/colors';
+import { orange500 } from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import styled from 'styled-components';
