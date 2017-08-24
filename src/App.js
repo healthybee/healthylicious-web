@@ -35,9 +35,9 @@ class App extends Component {
     `;
 
     const SubtitleSmall = styled.p`
-    font-size: 1em;
-    text-align: center;
-  `;
+      font-size: 1.2em;
+      text-align: center;
+    `;
 
     return (
       <MuiThemeProvider muiTheme={muiTheme}>
@@ -46,7 +46,8 @@ class App extends Component {
             <img src={logo} width="80%" alt="healthylicious logo" />
           </Title>
           <Subtitle>Coming Soon ...</Subtitle>
-          <SubtitleSmall>Reach us @ healthyliciouscorner@gmail.com for any queries.</SubtitleSmall>
+          <SubtitleSmall>Reach us:- healthyliciouscorner@gmail.com / +91-8793580502 / +91-9764689306 for any queries.</SubtitleSmall>
+          <SubtitleSmall>Address:- Bhoir Palace, Next to SBI Bank, Dange Chowk, Pune, Maharashtra - 411033</SubtitleSmall>
         </Wrapper>
       </MuiThemeProvider>
     );
